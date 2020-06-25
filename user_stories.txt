@@ -1,0 +1,56 @@
+As a fitness enthusiast, I want to track my workout routine so I can get in shape.
+
+As a student, I want to make sure I complete all my assignments so I can get good grades.
+
+As a personal shopper, I want to check-off items I buy for clients so I can be sure I got everything they need.
+
+
+
+
+
+MY LIST
+
+ TODO
+
+     Top navbar
+          Todo (sel)
+          Contacts
+     
+     Add todo
+          Text input
+          Enter button
+
+     List of todos
+
+          List of finished
+               Todo item
+
+          List of unfinished
+               Todo item
+
+          Select view
+               All
+               Finished
+               Unfinished
+
+
+ CONTACTS
+
+     Top navbar
+          Todo 
+          Contacts (sel) 
+
+     Form
+
+          First
+
+          Last
+
+          Email
+
+          Comments
+
+     Submit button
+
+
+

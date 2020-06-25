@@ -7,9 +7,9 @@ const getVisibleTodos = (todos, filter) => {
   switch (filter) {
     case VisibilityFilters.SHOW_ALL:
       return todos
-    case VisibilityFilters.SHOW_COMPLETED:
+    case VisibilityFilters.SHOW_FINISHED:
       return todos.filter(t => t.completed)
-    case VisibilityFilters.SHOW_ACTIVE:
+    case VisibilityFilters.SHOW_UNFINISHED:
       return todos.filter(t => !t.completed)
     default:
       throw new Error('Unknown filter: ' + filter)

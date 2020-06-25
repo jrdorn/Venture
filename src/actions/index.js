@@ -18,5 +18,6 @@ export const toggleTodo = id => ({
 export const VisibilityFilters = {
   SHOW_ALL: 'SHOW_ALL',
   SHOW_FINISHED: 'SHOW_FINISHED',
-  SHOW_ACTIVE: 'SHOW_ACTIVE'
+  SHOW_UNFINISHED: 'SHOW_UNFINISHED'
 }
+
