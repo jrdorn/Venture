@@ -8,14 +8,13 @@ I drew inspiration from Google Keep's functionality and Todoist's color scheme f
 
 This project is currently under development.
 Future functionality includes allowing users to create an account and save data, organizing sublists,
-and choosing lists to display by date.
+click to drag and rearrange items, and choosing lists to display by date.
 
 ## Features
 
 - Add items to list
 - Check off items/ completed tasks
 - Delete items from list
-- Click to drag and rearrange items
 
 ## Technologies
 
