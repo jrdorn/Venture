@@ -28,17 +28,18 @@ html {
 
 .head {
   grid-area: head;
-  border: 5px solid red;
+  border-bottom: 0.5em solid #ed731c;
 }
 
 .tdlist {
   grid-area: tdlist;
-  border: 5px solid blue;
+  margin-left: 1.5em;
+  /* border: 5px solid blue; */
 }
 
 .footer {
   grid-area: footer;
-  border: 5px solid green;
+  margin-left: 1.5em;
 }
 
 body {
@@ -79,4 +80,24 @@ h3 {
 
 p {
   font-size: 1.5rem;
+}
+
+/* || Layout */
+
+header {
+  margin-left: 1.5em;
+}
+
+/* list  */
+
+ul {
+  list-style-type: none;
+}
+
+.todo-items {
+  min-width: 350px;
+}
+
+.checked {
+  text-decoration: line-through;
 }
