@@ -1,6 +1,6 @@
 /* || General Setup  */
 
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins&family=Fredoka+One&family=Monoton&display=swap");
 
 body {
   background-color: #eaeaea;
@@ -34,7 +34,6 @@ html {
 .tdlist {
   grid-area: tdlist;
   margin-left: 1.5em;
-  /* border: 5px solid blue; */
 }
 
 .footer {
@@ -66,20 +65,48 @@ html {
 
 h1 {
   font-family: "Poppins", Arial, sans-serif;
-  letter-spacing: 0.15em;
   font-size: 3rem;
+  margin: 0;
+  display: flex;
+}
+
+#venture {
+  font-size: 5rem;
+  font-family: "Monoton", Arial, sans-serif;
+}
+
+#sub {
+  letter-spacing: 0.25em;
+  margin-top: 0.835em;
 }
 
 h2 {
-  font-size: 2.5rem;
-}
-
-h3 {
-  font-size: 2rem;
+  font-size: 2.25rem;
 }
 
 p {
   font-size: 1.5rem;
+}
+
+li {
+  font-family: inherit;
+  font-size: 1.75rem;
+}
+
+input {
+  font-family: inherit;
+  font-size: 1.5rem;
+  padding: 0.5em;
+}
+
+button {
+  font-family: "Fredoka One", Arial, sans-serif;
+  font-size: 1.5rem;
+  color: #ed731c;
+}
+
+.add-button {
+  font-size: 3rem;
 }
 
 /* || Layout */
@@ -100,4 +127,5 @@ ul {
 
 .checked {
   text-decoration: line-through;
+  color: #b8b8b8;
 }
