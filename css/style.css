@@ -28,11 +28,17 @@ html {
 .head {
   grid-area: head;
   border-bottom: 0.75em double #ed731c;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: inherit;
+  z-index: 3;
 }
 
 .tdlist {
   grid-area: tdlist;
   margin-left: 1.5em;
+  margin-bottom: 1.5em;
 }
 
 .footer {
@@ -172,6 +178,10 @@ ul {
   color: #b8b8b8;
 }
 
+.litext {
+  margin-left: 1.35em;
+}
+
 .item {
   position: relative;
   padding-left: 1em;
@@ -207,6 +217,10 @@ ul {
 .item input[type="checkbox"] {
   opacity: 0;
   z-index: 2;
+  position: fixed;
+  left: 0.8em;
+  width: 1.8em;
+  height: 1.6em;
 }
 
 .item input[type="checkbox"]:checked + label {
