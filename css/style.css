@@ -167,7 +167,7 @@ ul {
   background-color: #ed731c;
 }
 
-.checked {
+.checked .litext {
   text-decoration: line-through;
   color: #b8b8b8;
 }
