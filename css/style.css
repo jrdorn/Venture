@@ -167,3 +167,54 @@ ul {
   text-decoration: line-through;
   color: #b8b8b8;
 }
+
+/* 
+<li class="item" data-key="1621379146850">
+      <input class="checkbox" type="checkbox" null="">
+      <p class="litext"> one </p>
+      <button class="delete-button">x</button>
+</li> 
+*/
+.item {
+  position: relative;
+}
+
+.item label {
+  background-color: #fbfbfb;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 2.8em;
+  width: 2.8em;
+  position: absolute;
+  top: 2em;
+  left: -0.4em;
+  z-index: -1;
+}
+
+.item label:after {
+  border: 2px solid #fbfbfb;
+  border-top: none;
+  border-right: none;
+  content: "";
+  height: 0.6em;
+  opacity: 0;
+  position: absolute;
+  top: 0.8em;
+  left: 0.7em;
+  transform: rotate(-45deg);
+  width: 1.2em;
+}
+
+.item input[type="checkbox"] {
+  opacity: 0;
+  z-index: 2;
+}
+
+.item input[type="checkbox"]:checked + label {
+  background-color: #ed731c;
+}
+
+.item input[type="checkbox"]:checked + label:after {
+  opacity: 1;
+}

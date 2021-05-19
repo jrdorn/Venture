@@ -1,3 +1,10 @@
+<!-- todo:
+scrolling list, with header and footer fixed 
+style list items, input, button
+mouse-over: highlight clickables
+fix delete strikethrough
+-->
+
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
@@ -9,7 +16,6 @@
   </head>
 
   <body>
-    <div class="rip">rip</div>
     <section class="head">
       <header>
         <h1>
@@ -20,15 +26,14 @@
     </section>
 
     <section class="tdlist">
+      <h2>Todo</h2>
       <div class="container">
-        <h2>Todo</h2>
+        <ul class="todo-items"></ul>
 
         <form class="todo-form">
           <button type="submit" class="add-button">+</button>
           <input type="text" class="todo-input" placeholder="Add item..." />
         </form>
-
-        <ul class="todo-items"></ul>
       </div>
     </section>
 

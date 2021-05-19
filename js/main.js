@@ -41,8 +41,8 @@ function renderTodos(todos) {
     }
 
     li.innerHTML = `
-      <input type="checkbox" class="checkbox" ${checked}>
-      ${item.name}
+      <input type="checkbox" class="checkbox" ${checked}><label for="checkbox"></label>
+      <p class="litext"> ${item.name} </p>
       <button class="delete-button">x</button>
     `;
     todoItemsList.append(li);
