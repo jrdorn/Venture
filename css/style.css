@@ -27,7 +27,7 @@ html {
 
 .head {
   grid-area: head;
-  border-bottom: 0.5em solid #ed731c;
+  border-bottom: 0.75em double #ed731c;
 }
 
 .tdlist {
@@ -36,8 +36,8 @@ html {
 }
 
 .footer {
+  border-top: 0.75em double #ed731c;
   grid-area: footer;
-  margin-left: 1.5em;
 }
 
 body {
@@ -115,6 +115,10 @@ header {
   margin-left: 1.5em;
 }
 
+.footer p {
+  margin-left: 1.5em;
+}
+
 /* list  */
 
 ul {
@@ -130,12 +134,10 @@ ul {
 }
 
 .container {
-  /* border: 2px solid red; */
   margin-right: 1.5em;
 }
 
 .todo-items > li {
-  /* border: 2px solid blue; */
   display: flex;
   justify-content: flex-end;
 }
@@ -143,6 +145,8 @@ ul {
 .litext {
   margin-right: auto;
 }
+
+/* custom checkbox */
 
 .checkbox {
   margin: 0;
@@ -168,15 +172,9 @@ ul {
   color: #b8b8b8;
 }
 
-/* 
-<li class="item" data-key="1621379146850">
-      <input class="checkbox" type="checkbox" null="">
-      <p class="litext"> one </p>
-      <button class="delete-button">x</button>
-</li> 
-*/
 .item {
   position: relative;
+  padding-left: 1em;
 }
 
 .item label {
@@ -217,4 +215,20 @@ ul {
 
 .item input[type="checkbox"]:checked + label:after {
   opacity: 1;
+}
+
+/* add button and input */
+
+.add-button {
+  margin-left: 0.08em;
+}
+
+.todo-input {
+  margin-left: 0.56em;
+  /* margin-right: 1em; */
+  background-color: #fbfbfb;
+  border: 1px solid #ddd;
+  border-radius: 0.2em;
+  color: inherit;
+  width: 87%;
 }
